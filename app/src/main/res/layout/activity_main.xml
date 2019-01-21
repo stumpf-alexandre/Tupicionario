@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/bichos"
+        style="@style/text_view"
+        android:text="@string/bichos_categorias"
+        android:background="@color/bicho_categoria"
+        android:textSize="@dimen/text_size"/>
+    <TextView
+        android:id="@+id/culinaria"
+        style="@style/text_view"
+        android:text="@string/culinaria_categorias"
+        android:background="@color/culinaria_categoria"
+        android:textSize="@dimen/text_size"/>
+    <TextView
+        android:id="@+id/plantas"
+        style="@style/text_view"
+        android:text="@string/plantas_categorias"
+        android:background="@color/plantas_categoria"
+        android:textSize="@dimen/text_size"/>
+    <TextView
+        android:id="@+id/povos_nativos"
+        style="@style/text_view"
+        android:text="@string/povos_nativos_categorias"
+        android:background="@color/povos_nativos_categoria"
+        android:textSize="@dimen/text_size"/>
+</LinearLayout>
