@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_height"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imagem_item"
+        android:layout_width="@dimen/list_height"
+        android:layout_height="@dimen/list_height"
+        android:src="@drawable/indiozinho_havita_03"/>
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imagem_item"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/pading">
+        <TextView
+            android:id="@+id/titulo_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/descricao_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>

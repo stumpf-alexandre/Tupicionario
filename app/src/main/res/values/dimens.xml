@@ -3,4 +3,5 @@
     <dimen name="pading">16dp</dimen>
     <dimen name="pading2">10dp</dimen>
     <dimen name="text_size">25sp</dimen>
+    <dimen name="list_height">88dp</dimen>
 </resources>
